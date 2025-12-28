@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Results and data
+optimized_results/checkpoint_step_*.pkl
+optimized_results/particle_density.png
+optimized_results/particle_trajectories.png
+results/
+1/
+
+# Large data files
+*.nc
+*.zarr
+
+# Exclude all pkl files except trajectory.pkl (important result file)
+*.pkl
+!optimized_results/trajectory.pkl
+
+# Temporary files
+nul
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
